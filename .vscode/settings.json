@@ -1,0 +1,9 @@
+{
+	"eslint.enable": true,
+	"eslint.format.enable": true,
+	"editor.formatOnSave": true,
+	"html.format.wrapLineLength": 0,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+}
