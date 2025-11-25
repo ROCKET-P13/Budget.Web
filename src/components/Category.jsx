@@ -1,7 +1,9 @@
-const Category = ({ type }) => {
+import { create } from 'zustand'
+
+const Category = ({ name }) => {
 	return (
 		<>
-			<p>Category Type: {type}</p>
+			<p>Category Name: {name}</p>
 		</>
 	)
 }
